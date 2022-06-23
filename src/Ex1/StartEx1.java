@@ -1,7 +1,6 @@
-import Ex1.FiveSecondCounter;
-import Ex1.Stopwatch;
+package Ex1;
 
-public class Main {
+public class StartEx1 {
     public static void main(String[] args) {
         Stopwatch stopwatch = new Stopwatch();
         FiveSecondCounter fiveSecondCounter = new FiveSecondCounter();
