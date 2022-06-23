@@ -74,15 +74,6 @@ public class ThredFizzBuzzChalange {
         return fbArray;
     }
 
-    public String[] fizzbuzz() {
-        for (int i = 0; i < n; i++) {
-            if (fbArray[i] % 15 == 0) {
-                result[i] = "fizzbuzz";
-            }
-        }
-        return result;
-    }
-
     public String[] fizz() {
         for (int i = 0; i < n; i++) {
             if (fbArray[i] % 3 == 0) {
@@ -96,6 +87,14 @@ public class ThredFizzBuzzChalange {
         for (int i = 0; i < n; i++) {
             if (fbArray[i] % 5 == 0) {
                 result[i] = "buzz";
+            }
+        }
+        return result;
+    }
+    public String[] fizzbuzz() {
+        for (int i = 0; i < n; i++) {
+            if (fbArray[i] % 15 == 0) {
+                result[i] = "fizzbuzz";
             }
         }
         return result;
