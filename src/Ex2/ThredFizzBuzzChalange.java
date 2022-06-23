@@ -21,7 +21,6 @@ public class ThredFizzBuzzChalange {
                 }
             }
         });
-//        Thread fizzbuzz = new Thread(() -> fizzbuzz());
         fizzbuzz.start();
         Thread fizz = new Thread(new Runnable() {
             @Override
@@ -34,7 +33,6 @@ public class ThredFizzBuzzChalange {
                 }
             }
         });
-//        Thread fizz = new Thread(() -> fizz());
         fizz.start();
         Thread buzz = new Thread(new Runnable() {
             @Override
@@ -47,7 +45,6 @@ public class ThredFizzBuzzChalange {
                 }
             }
         });
-//        Thread buzz = new Thread(() -> buzz());
         buzz.start();
         Thread number = new Thread(new Runnable() {
             @Override
@@ -60,7 +57,6 @@ public class ThredFizzBuzzChalange {
                 }
             }
         });
-//        Thread number = new Thread(() -> number());
         number.start();
 
     }
